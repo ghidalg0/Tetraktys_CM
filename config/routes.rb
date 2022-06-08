@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "about", to: "pages#about"
   get "legals", to: "pages#legal"
+  get "realisations", to: "pages#realisation"
+  get "singularity", to: "pages#singularity"
 end

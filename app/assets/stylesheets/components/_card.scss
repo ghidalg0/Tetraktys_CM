@@ -22,3 +22,17 @@
 .home-cards h3 {
   margin: 20px 0px;
 }
+
+.sing-card-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sing-card {
+  border: #023E8A solid 1px;
+  border-radius: 4px;
+  width: 350px;
+  padding: 10px 20px;
+  margin: 40px 0px;
+  color: #023E8A;
+}
