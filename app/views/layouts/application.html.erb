@@ -13,7 +13,7 @@
   <body>
     <%=render "/shared/navbar" %>
     <% if current_page?(root_path) %>
-      <%= render "/shared/banner" %>
+      <%= render "/shared/banner_root" %>
     <% end %>
     <%= yield %>
     <%= render "/shared/footer" %>

@@ -1,0 +1,52 @@
+
+.real-videos {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  i {
+    font-size: 20px;
+  }
+  div {
+    width: 20vw;
+    text-align: center;
+    padding: 5vh;
+  }
+}
+
+.real-TCM {
+  margin: 5vh 15vh;
+  margin-bottom: 10vh;
+  h2, h4 {
+    color: #023E8A;
+  }
+  h2 {
+    text-align: center;
+    margin: 5vh auto;
+    padding-bottom: 10px;
+    border-bottom: #023E8A solid 0.5px;
+    font-weight: bolder;
+  }
+  h3 {
+    margin: 5vh auto;
+    text-align: center;
+  }
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.hamleys-img {
+  height: 25vh;
+  width: 50vh;
+  background-image: url('Hamleys.jpg');
+  background-size: cover;
+}
+
+.fcw-img {
+  height: 25vh;
+  width: 75vh;
+  background-image: url('FCW1.jpg');
+  background-size: cover;
+}
