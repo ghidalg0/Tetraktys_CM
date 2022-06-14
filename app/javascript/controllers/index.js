@@ -4,5 +4,8 @@
 
 import { application } from "./application"
 
-import HelloController from "./hello_controller"
+import ActiveMenuTabController from "./active_menu_tab_controller.js"
+application.register("active-menu-tab", ActiveMenuTabController)
+
+import HelloController from "./hello_controller.js"
 application.register("hello", HelloController)

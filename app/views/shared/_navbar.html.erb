@@ -1,21 +1,21 @@
 <div class="navbar-TCM">
-    <div class="navbar-TCM-container">
-      <h1 class="knockout me-auto">Tetraktys Concept Management</h1>
-      <div class="menu">
-        <ul class="list-inline tabs-underlined">
-          <li>
-            <a href="/" class="tab-underlined active"><i class="fa-solid fa-house"></i></a>
-          </li>
-          <li>
-            <a href="realisations" class="tab-underlined ">Réalisations</a>
-          </li>
-          <li>
-            <a href="singularity" class="tab-underlined">Singularités</a>
-          </li>
-          <li>
-            <a href="about" class="tab-underlined">A propos</a>
-          </li>
-        </ul>
-      </div>
+  <div class="navbar-TCM-container">
+    <h1 class="knockout me-auto">Tetraktys Concept Management</h1>
+    <div class="menu">
+      <ul class="list-inline tabs-underlined">
+        <li>
+          <a href="/" class="tab-underlined <%= "active" if current_page?(root_path)%>"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li>
+          <a href="realisations" class="tab-underlined <%= "active" if current_page?(realisations_path)%>">Réalisations</a>
+        </li>
+        <li>
+          <a href="singularity" class="tab-underlined <%= "active" if current_page?(singularity_path)%>">Singularités</a>
+        </li>
+        <li>
+          <a href="about" class="tab-underlined <%= "active" if current_page?(about_path)%>">A propos</a>
+        </li>
+      </ul>
     </div>
   </div>
+ </div>
