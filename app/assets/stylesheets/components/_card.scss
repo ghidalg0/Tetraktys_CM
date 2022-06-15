@@ -49,3 +49,15 @@
     display: none;
   }
 }
+
+.video-card {
+  border: #023E8A solid 1px;
+  border-radius: 4px;
+  width: 5vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  :last-child {
+    margin-top: auto;
+  }
+}
