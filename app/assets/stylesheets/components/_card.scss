@@ -31,8 +31,21 @@
 .sing-card {
   border: #023E8A solid 1px;
   border-radius: 4px;
-  width: 350px;
+  width: 20vw;
+  height: 50vh;
   padding: 10px 20px;
   margin: 40px 0px;
+  background-color: #ffffff;
   color: #023E8A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sing-card:hover {
+  background-color: #023E8A;
+  color: #ffffff;
+  p {
+    display: none;
+  }
 }
