@@ -27,7 +27,7 @@
     font-weight: bolder;
   }
   h3 {
-    margin: 5vh auto;
+    margin-bottom: 5vh;
     text-align: center;
   }
 }
@@ -35,18 +35,12 @@
 .img-cont {
   display: flex;
   justify-content: center;
+
 }
 
-.hamleys-img {
-  height: 25vh;
+.img {
+  height: 20vh;
   width: 50vh;
-  background-image: url('Hamleys.jpg');
-  background-size: cover;
-}
+  object-fit: contain;
 
-.fcw-img {
-  height: 25vh;
-  width: 75vh;
-  background-image: url('FCW1.jpg');
-  background-size: cover;
 }
