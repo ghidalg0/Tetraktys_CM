@@ -86,17 +86,16 @@
 }
 
 .tetra-cards-cont {
-  margin-left: 3vw;
-  margin-bottom: 3vh;
+  margin-left: 2vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8vh;
+  grid-gap: 6vh 2vw;
   align-items: center;
 }
 
 .tetra-card {
   text-align: center;
-  width: 12vw;
+  width: 16vw;
   height: 4vh;
   font-weight: bolder;
   font-size: 20px;
