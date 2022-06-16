@@ -1,0 +1,7 @@
+.tetra-TCM-cont {
+  display: flex;
+  align-items: center;
+  :last-child {
+    flex-grow: 1;
+  }
+}
