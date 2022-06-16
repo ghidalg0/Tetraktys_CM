@@ -1,5 +1,6 @@
 .home-cards {
   text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
   width: 350px;
   border: #023E8A solid 1px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -31,6 +32,7 @@
 
 .sing-card {
   border: #023E8A solid 1px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 20vw;
   height: 50vh;
@@ -54,11 +56,15 @@
 .video-card {
   border: #023E8A solid 1px;
   background-color: #F8F9FA;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 5vw;
   height: 25vh;
   display: flex;
   flex-direction: column;
+  p {
+    color: #6c757d;
+  }
   :last-child {
     margin-top: auto;
   }
@@ -67,8 +73,13 @@
 .about-card {
   border: #023E8A solid 1px;
   background-color: #F8F9FA;
+  width: 50vh;
   padding: 3vh;
-  margin: 10vh;
+  margin: 10vh auto;
   border-radius: 8px;
   text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  p {
+    color: #6c757d;
+  }
 }
