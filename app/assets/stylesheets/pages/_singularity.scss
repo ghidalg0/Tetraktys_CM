@@ -39,8 +39,10 @@
 }
 
 .sing-img {
+  display: inline-block;
   width: 500px;
   height: 500px;
   object-fit: cover;
   border-radius: 8px;
+  margin-right: 5%;
 }

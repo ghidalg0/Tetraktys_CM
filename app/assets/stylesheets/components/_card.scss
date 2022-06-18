@@ -25,10 +25,20 @@
   margin: 20px 0px;
 }
 
-// .sing-card-cont {
-//   display: flex;
-//   justify-content: space-around;
-// }
+.sing-card-cont {
+  margin-top: 5vh;
+  display: flex;
+}
+
+.sing-card {
+  margin-left: 5%;
+  margin-right: 1%;
+  max-height: 500px;
+  padding: 5%;
+  border-radius: 8px;
+  color: #023E8A;
+  background-color: #e6e9ec;
+}
 
 // .sing-card {
 //   border: #023E8A solid 1px;
